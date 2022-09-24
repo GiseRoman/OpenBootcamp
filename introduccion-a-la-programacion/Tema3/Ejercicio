@@ -1,1 +1,25 @@
 
+public static void main(String[] array){
+        suma(12,24,16);
+
+        miCoche = new coche();
+
+        miCoche.sumaPuertas();
+        miCoche.sumaPuertas();
+        System.out.println("Numero de puertas: " + miCoche.Puertas);
+
+        }
+
+public static void suma(int a, int b, int c){
+        int resultado;
+        resultado = a + b + c;
+        System.out.println(resultado);
+        }
+
+class coche{
+    public int Puertas = 4;
+
+    public int sumaPuertas(){
+        this.Puertas++;
+    }
+}
